@@ -1,634 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>My Portfolio</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <style>
-      .row1 {
-        display: flex;
-        flex-direction: column;
-      }
 
-      /* Create three equal columns that sits next to each other */
-      .column1 {
-        flex: 33.33%;
-        padding: 5px;
-      }      
-    </style>
-  </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-      id="mainNav"
-    >
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" id = "h1anime"
-          >Himanshi Verma</a
-        >
-        <button
-          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#portfolio"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#skills"
-                >Skills</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#experiance"
-                >Experience</a
-              >
-            </li>
-          
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#contact"
-                >Contact</a
-              >
-            </li>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRANDY</title>
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-            <li class="nav-item mx-0 mx-lg-1">
-              <a target="_blank" href="Himanshi_resume.pdf"
-            class="btn btn btn-outline-light"
-            href="https://startbootstrap.com/themes/freelancer/">
-            Resume Download </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead  text-white text-center">
-      <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-        <img
-          class="masthead-avatar mb-5"
-          src=""
-          alt=""
-        />
-        <!-- Masthead Heading-->
-        <h2 class="masthead-heading text-uppercase mb-0" >About<br>
-        </h2>
-        
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">
-          <p>
-            Motivated software engineer looking to pursue a successful career in software development , where I can help in the delivery of state-of-the-art software solutions. Experience includes coding, troubleshooting, and testing for my own personal projects while at University IP. Relevant skills include PHP, Data Structures, Machine Learning, and Debugging.
-          </p>
-        </p>
-      </div>
+    <!-- Font Awesome -->
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+     <!-- Preloader -->
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
+
+    <!-- Icon Font-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/lte-ie7.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+                <!-- Preloader -->
+                <div id="preloader">
+                    <div id="status">&nbsp;</div>
+                </div>
+
+
+
+
+    <header id="HOME" style="background-position: 50% -125px;">
+	        <div class="section_overlay">
+	            <nav class="navbar navbar-default navbar-fixed-top">
+	              <div class="container">
+	                <!-- Brand and toggle get grouped for better mobile display -->
+	                <div class="navbar-header">
+	                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                  </button>
+	                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+	                </div>
+
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="#HOME">Home</a></li>
+	                    <li><a href="#SERVICE">Services</a></li>
+	                    <li><a href="#ABOUT">About</a></li>
+	                    <li><a href="#TESTIMONIAL">Testimonial</a></li>
+	                    <li><a href="#WORK">Work</a></li>
+	                    <li><a href="#CONTACT">Contact</a></li>
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+	              </div><!-- /.container -->
+	            </nav> 
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="home_text wow fadeInUp animated">
+	                            <h2>it’s abdullah noman</h2>
+	                            <p>a user interface and user experience specialist</p>
+	                            <img src="images/shape.png" alt="">                        
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="scroll_down">
+                            <a href="#SERVICE"><img src="images/scroll.png" alt=""></a>
+	                            <h4>Scroll Down</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>            
+	        </div>  
+	    </section>         
     </header>
 
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="skills">
-      <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          Skills
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+
+    <section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i class="icon-pencil"></i>
+                        <h2>Design</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i class="icon-gears"></i>
+                        <h2>Development</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                        <i class="icon-camera"></i>
+                        <h2>Photography</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                        <i class="icon-magnifying-glass"></i>
+                        <h2>Seo</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+            </div>            
         </div>
-        <div id="skills1">
-            <ul>
-              <li>C/C++</li>
-              <li>Python</li>
-              <li>HTML/CSS</li>
-              <li>Javascript</li>
-              <li>SQL</li>
-            </ul>
-            <ul>
-              <li>Django</li>
-              <li>Django Rest Framework</li>
-              <li>React</li>
-              <li>MySQL</li>
-              <li>Postgress</li>
-              <li>Sqlite3</li>
-            </ul>
-            <ul>
-              <li>ROS</li>
-              <li>Arduino</li>
-              <li>Raspberry Pi</li>
-              <li>Gazebo</li>
-            </ul>
-          </div>
-				
-        <div class="text-center mt-4">
-          <a target="_blank" href="Himanshi_resume.pdf"
-            class="btn btn-xl btn-outline-light"
-            href="https://startbootstrap.com/themes/freelancer/"
-          >
-            <i class="fas fa-download mr-2"></i>
-            Resume Download!
-          </a>
-        </div>
-      
     </section>
-    <!-- Experiance Section-->
-    <section class="page-section bg-purple text-white mb-0" id="experiance">
-      <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          Experience
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <div id="skills1">
-            <ul>
-              <li>WEB DEVELOPER (IIITD, March 2022 - August 2022)</li>
-
-              <li>SOFTWARE DEVELOPER (Hi-Tlanet,Aug,2021 - Feb,2022)</li>
-
-              
-            </ul>
-            
-            
-          </div>
-				
-        
-      
-    </section>
-    <!-- Portfolio Section-->
-    <section class="page-section bg-purple2  portfolio" id="portfolio">
-      <div class="container">
-        <!-- Portfolio Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-white mb-0"
-        >
-          Projects
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Portfolio Grid Items-->
-        <div class="row">
-          <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#project1"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-black"
-                >
-                  <h1>Learning Log</h1>
+    <section class="about_us_area" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="about_title">
+                        <h2>About Me</h2>
+                        <img src="images/shape.png" alt="">
+                    </div>
                 </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/projects/learning log/home page.png"
-                alt=""
-              />
             </div>
-          </div>
-          <!-- Portfolio Item 2-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#project2"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-black"
-                >
-                  <h1>shopping site</h1>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/projects/eccomerce/home.png"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <!-- Portfolio Item 3-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#project3"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-black"
-                >
-                  <h1>Project 3</h1>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/cabin.png"
-                alt=""
-              />
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  wow fadeInLeft animated">
+                    <div class="single_progress_bar">
+                        <h2>DESIGN - 90%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>DEVELOPMENT - 60%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>MARKETING - 75%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>SEO - 95%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed quia non numquam eius modi tempora.</p>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div>
+            </div>
+        </div>
     </section>
     
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
-      <div class="container">
-        <!-- Contact Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
-          Contact Details
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+
+    <section class="testimonial text-center wow fadeInUp animated" id="TESTIMONIAL">
+        <div class="container">
+            <div class="icon">
+                <i class="icon-quote"></i>
+            </div>
+            <div class="owl-carousel">
+                <div class="single_testimonial text-center wow fadeInUp animated">
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores<br/> eos qui ratione voluptatem sequi nesciunt.</p>
+                    <h4>-JOHN DOE</h4>
+                </div>
+                <div class="single_testimonial text-center">
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius<br/> modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <h4>-JOHN SMITH</h4>
+                </div>
+            </div>            
         </div>
-        <!-- Contact Section Form-->
-<!--         <section class="alt">
-          <h3>Address</h3>
-          <p>274/29, molarband, badarpur, New Delhi-44<br /></p>
-        </section> -->
-        <!-- <section>
-          <h3>Phone</h3>
-          <p><a href="#">8851649724</a></p>
-        </section> -->
-        <section>
-          <h3>Email</h3>
-          <p><a href="#">hv.himanshi.verma@gmail.com</a></p>
-        </section>
-        </div>
-      </div>
     </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <!-- <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">
-              2215 John Daniel Drive
-              <br />
-              Clark, MO 65243
-            </p> -->
-          </div>
-          <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#"
-              ><i class="fab fa-fw fa-facebook-f"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-twitter"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-linkedin-in"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-dribbble"></i
-            ></a>
-          </div>
-          <!-- Footer About Text-->
-          <!-- <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">
-              Freelance is a free to use, MIT licensed Bootstrap theme created
-              by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>
-              .
-            </p> -->
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Copyright Section-->
-    <!-- <div class="copyright py-4 text-center text-white">
-      <div class="container"><small>Copyright © Your Website 2020</small></div>
-    </div> -->
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-    <div class="scroll-to-top d-lg-none position-fixed">
-      <a
-        class="js-scroll-trigger d-block text-center text-white rounded"
-        href="#page-top"
-        ><i class="fa fa-chevron-up"></i
-      ></a>
+
+
+    <div class="fun_facts">
+    	<section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
+	        <div class="section_overlay">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-6 wow fadeInLeft animated">
+	                        <div class="row">
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-toolbox"></i>
+	                                    <h3>300</h3>
+	                                    <p>Project Done</p>
+	                                </div>
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-clock"></i>
+	                                    <h3>1700+</h3>
+	                                    <p>Hours Worked</p>
+	                                </div>                            
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-trophy"></i>
+	                                    <h3>37</h3>
+	                                    <p>Awards Won</p>
+	                                </div>                            
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
+	                        <div class="imac">
+	                            <img src="images/imac.png" alt="">
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>            
+	        </div>
+	    </section>    
     </div>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio Modal 1-->
-    <div
-      class="portfolio-modal modal fade"
-      id="project1"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal1Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal1Label"
-                  >
-                    Learning Log
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
+    <section class="work_area" id="WORK">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work_title  wow fadeInUp animated">
+                        <h1>Latest Works</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
                     </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <div class="row1">
-                    <div class="column1">
-                      <h1>Add New Topic</h1>
-                      <img
-                        src="assets/img/projects/learning log/add a new topic.png"
-                        alt="Snow"
-                        width="600"
-                        height="300"
-                      />
-                    </div>
-                    <br>
-                    <div class="column1">
-                      <h1>Registration page</h1>
-                      <img
-                        src="assets/img/projects/learning log/register.png"
-                        alt="Forest"
-                        width="600"
-                        height="300"
-                      />
-                    </div>
-                    <br>
-                    <div class="column1">
-                      <h1>Login page</h1>
-                      <img
-                        src="assets/img/projects/learning log/login.png"
-                        alt="Mountains"
-                        width="600"
-                        height="300"
-                      />
-                    </div>
-                    <br>
-                  </div>
-                  <br>
-                  <!-- Portfolio Modal - Text-->
-                  <div class="main-container">
-                    <h3>Learning Log</h3><br>
-                    <p>Learning Log—an online journal system that keeps track of the user’s information that they learned about particular topic.User can add new topic.user can edit previous topic</p>
-                    <div id = "skills1">
-                      
-                      <ul>
-                      <h5>Technologies:</h5>
-                      <li>python3</li>
-                      <li>Django</li>
-                      <li>Html</li>
-                      <li>css</li>
-                      <li>Bootstrap</li>
-                      <li></li>
-                      </ul>
-
-                    </div>
-  
-                    
-  
-                    
-
-                  </div>
-                  
-                  
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 2-->
-    <div
-    class="portfolio-modal modal fade"
-    id="project2"
-    tabindex="-1"
-    role="dialog"
-    aria-labelledby="portfolioModal1Label"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button
-          class="close"
-          type="button"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
-          <span aria-hidden="true"><i class="fas fa-times"></i></span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title-->
-                <h2
-                  class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  id="portfolioModal1Label"
-                >
-                  Shopping site
-                </h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w1.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
                 </div>
-                <!-- Portfolio Modal - Image-->
-                <div class="row1">
-                  <div class="column1">
-                    <h1>Home Page</h1>
-                    <img
-                      src="assets/img/projects/eccomerce/home.png"
-                      alt="Snow"
-                      width="600"
-                      height="300"
-                    />
-                  </div>
-                  <br>
-                  <div class="column1">
-                    <h1>Total Items in Cart</h1>
-                    <img
-                      src="assets/img/projects/eccomerce/cart.png"
-                      alt="Forest"
-                      width="600"
-                      height="300"
-                    />
-                  </div>
-                  <br>
-                  <div class="column1">
-                    <h1>Checkout Page</h1>
-                    <img
-                      src="assets/img/projects/eccomerce/checkout.png"
-                      alt="Mountains"
-                      width="600"
-                      height="300"
-                    />
-                  </div>
-                  <br>
-                  <div class="column1">
-                    <h1>Payment by  Paypal</h1>
-                    <img
-                      src="assets/img/projects/eccomerce/paypal.png"
-                      alt="Mountains"
-                      width="600"
-                      height="300"
-                    />
-                  </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w2.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
                 </div>
-                <br>
-                <!-- Portfolio Modal - Text-->
-                <div class="main-container">
-                  <h3>Shoping Site</h3><br>
-                  <p>This Project is a fully functioning eCommerce website from start to checkout functionality. Users will have the ability to add multiple products to cart, varying from physical to digital products.
-                    Payment integration will be handled with PayPal offering the ability to checkout with a PayPal account and checkout with PayPal debit/credit card.
-                    This eCommerce website give the user the ability to checkout without creating an account.
-
-                  </p>
-                  <div id = "skills1">
-                    
-                    <ul>
-                    <h5>Technologies:</h5>
-                    <li>python3</li>
-                    <li>Django</li>
-                    <li>PayPal integration</li>
-                    <li>Cookies</li>
-                    <li>Html</li>
-                    <li>css</li>
-                    <li>Bootstrap</li>
-                    </ul>
-
-                  </div>
-
-                  
-
-                  
-
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w3.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
                 </div>
-                
-                
-                <button class="btn btn-primary" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
             </div>
-          </div>
+            <div class="row pad_top">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w4.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w5.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image last_padding">
+                        <img src="images/w6.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+            </div>           
         </div>
-      </div>
-    </div>
-  </div>
-    <!-- Portfolio Modal 3-->
-  
+    </section>
+    <section class="call_to_action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 wow fadeInLeft animated">
+                    <div class="left">
+                        <h2>LOOKING FOR EXCLUSIVE DIGITAL SERVICES?</h2>
+                        <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. 
+                        Integer non dapibus diam, ac eleifend lectus.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
+                    <div class="baton">
+	                    <a href="#CONTACT">
+	                        <button type="button" class="btn btn-primary cs-btn">Let's Talk</button>
+	                    </a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact_title  wow fadeInUp animated">
+                        <h1>get in touch</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3  wow fadeInLeft animated">
+                    <div class="single_contact_info">
+                        <h2>Call Me</h2>
+                        <p>+88 00 123 456 01</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Email Me</h2>
+                        <p>Hello@example.com</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Address</h2>
+                        <p>216 Street Address, Barisal, BD</p>
+                    </div>
+                </div>
+                <div class="col-md-9  wow fadeInRight animated">
+                    <form class="contact-form" action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">                                
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work-with   wow fadeInUp animated">
+                        <h3>looking forward to hearing from you!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Contact form JS-->
-    <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-  </body>
+
+
+<footer>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="footer_logo   wow fadeInUp animated">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center   wow fadeInUp animated">
+                    <div class="social">
+                        <h2>Follow Me on Here</h2>
+                        <ul class="icon_list">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright_text   wow fadeInUp animated">
+                        <p>&copy; brandy 2015.All Right Reserved By <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
+                        <p>Made with love for creative people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
 </html>
